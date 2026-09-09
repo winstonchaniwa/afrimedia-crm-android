@@ -145,6 +145,6 @@ private fun LogoMark() {
 }
 
 private fun buildAnnotatedLogo() = androidx.compose.ui.text.buildAnnotatedString {
-    androidx.compose.ui.text.withStyle(androidx.compose.ui.text.SpanStyle(color = AmiBlack)) { append("AFRI") }
-    androidx.compose.ui.text.withStyle(androidx.compose.ui.text.SpanStyle(color = AmiOrange)) { append("MEDIA") }
+    withStyle(androidx.compose.ui.text.SpanStyle(color = AmiBlack)) { append("AFRI") }
+    withStyle(androidx.compose.ui.text.SpanStyle(color = AmiOrange)) { append("MEDIA") }
 }
